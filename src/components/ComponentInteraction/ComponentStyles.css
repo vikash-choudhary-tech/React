@@ -1,0 +1,27 @@
+.container {
+    background-color: lightgreen;
+    width: 100%;
+  }
+  
+  .item_description {
+    color: red;
+  }
+  
+  .action-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .removeItemButton {
+    background-color: lightyellow;
+    color: black;
+    padding: 5px;
+    margin: 5px;
+  }
+  
+  @media (max-width: 600px) {
+    .container {
+      width: 50%;
+    }
+  }
+  
