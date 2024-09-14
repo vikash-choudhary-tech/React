@@ -15,7 +15,17 @@ export default function Parent() {
     setData(data.filter((data) => data.id !== event));
   }
 
+  function getImage() {
+    return "https://thumbs.dreamstime.com/z/woman-praying-free-birds-to-nature-sunset-background-woman-praying-free-birds-enjoying-nature-sunset-99680945.jpg";
+  }
+
   useEffect(() => {
+    //Test Async Await
+    // const fetchData = async () => {
+    //     const result = await getData();
+    //     setData(result.data.products);
+    //   };
+    //   fetchData();
     getData()
       .then(({ data }) => {
         console.log("data", data.products);
@@ -36,6 +46,9 @@ export default function Parent() {
             id={item.id}
             removeItemFromParent={removeItemFromParent}
           />
+          <div className="image-container">
+            <img className="image" src={getImage()} alt="playing birds" />
+          </div>
           <hr />
         </div>
       ))}
