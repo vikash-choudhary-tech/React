@@ -1,13 +1,10 @@
 import "./App.css";
-import Parent from "./components/ComponentInteraction/Parent";
-import Todo from "./components/Todo/Todo";
+import Router from "./Routes/router";
 
 function App() {
   return (
-    <div className="App">
-      <h1>TODO LIST</h1>
-      <Todo/>
-      <Parent/>
+    <div>
+      <Router />
     </div>
   );
 }
