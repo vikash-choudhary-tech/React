@@ -1,3 +1,5 @@
+// Will be checking State structuring principles today
+
 import { useState } from "react";
 
 const Arrays = () => {
