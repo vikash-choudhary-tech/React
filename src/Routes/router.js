@@ -3,8 +3,8 @@ import Todo from "../components/Todo/Todo";
 import Arrays from "../components/ArrayStates/Arrays";
 import Reducer from "../components/UseReducer/reducer";
 import Wrapper from "../components/Context/wrapper";
-import UseMemo from "../components/UseMemo/UseMemo";
-import UseCallback from "../components/UseMemo/UseCallback";
+import UseMemo from "../components/UseMemoAndCallback/UseMemo";
+import UseCallback from "../components/UseMemoAndCallback/UseCallback";
 
 const Router = () => (
   <BrowserRouter>

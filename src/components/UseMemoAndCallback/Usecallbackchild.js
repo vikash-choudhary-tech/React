@@ -5,8 +5,6 @@ const UseCallbackchild = ({ test }) => {
 
   return (
     <>
-      {/* {count} */}
-      {/* <button onClick={() => setCount(count + 1)}>Test Button</button> */}
       <button>Test Button</button>
     </>
   );
