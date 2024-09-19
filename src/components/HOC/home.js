@@ -5,7 +5,7 @@ const Home = () => {
   const AuthComp = HOC(Component1);
   return (
     <>
-      Hi <AuthComp />
+      Hi <AuthComp name="Vikash" />
     </>
   );
 };

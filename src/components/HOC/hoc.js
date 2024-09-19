@@ -2,10 +2,10 @@ const HOC = (Component) => {
   const styles = {
     backgroundColor: "pink",
   };
-  return function () {
+  return function (props) {
     return (
       <div style={styles}>
-        <Component props="This is a random prop" />
+        <Component {...props} props="This is a random prop" />
       </div>
     );
   };
