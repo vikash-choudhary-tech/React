@@ -5,6 +5,7 @@ import Reducer from "../components/UseReducer/reducer";
 import Wrapper from "../components/Context/wrapper";
 import UseMemo from "../components/UseMemoAndCallback/UseMemo";
 import UseCallback from "../components/UseMemoAndCallback/UseCallback";
+import Home from "../components/HOC/home";
 
 const Router = () => (
   <BrowserRouter>
@@ -15,6 +16,7 @@ const Router = () => (
       <Route path="/context" element={<Wrapper />} />
       <Route path="/memo" element={<UseMemo />} />
       <Route path="/callback" element={<UseCallback />} />
+      <Route path="/hoc" element={<Home />} />
     </Routes>
   </BrowserRouter>
 );
