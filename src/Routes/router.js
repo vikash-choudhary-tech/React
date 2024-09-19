@@ -6,6 +6,7 @@ import Wrapper from "../components/Context/wrapper";
 import UseMemo from "../components/UseMemoAndCallback/UseMemo";
 import UseCallback from "../components/UseMemoAndCallback/UseCallback";
 import Home from "../components/HOC/home";
+import Lazy from "../components/LazyLoading/lazy";
 
 const Router = () => (
   <BrowserRouter>
@@ -17,6 +18,7 @@ const Router = () => (
       <Route path="/memo" element={<UseMemo />} />
       <Route path="/callback" element={<UseCallback />} />
       <Route path="/hoc" element={<Home />} />
+      <Route path="/lazy" element={<Lazy />} />
     </Routes>
   </BrowserRouter>
 );
